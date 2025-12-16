@@ -88,8 +88,7 @@ O dashboard foi construído no **Power BI Desktop**, contendo:
 
 📷 *Preview do dashboard:*
 
-![Dashboard Preview](<img width="1162" height="654" alt="image" src="https://github.com/user-attachments/assets/ca952011-d5d8-4ce7-b74b-7f12b97cdc83" />
-)
+![Dashboard Preview](assets/Review Olist.png)
 
 ---
 
