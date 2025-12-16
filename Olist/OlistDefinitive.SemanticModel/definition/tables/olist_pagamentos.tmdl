@@ -1,0 +1,64 @@
+table olist_pagamentos
+	lineageTag: ab227fcd-a064-4a4e-9e85-d9006189ed78
+
+	column 'ID pedido'
+		dataType: string
+		lineageTag: 724f17a9-4f36-418d-ac65-d95e1fdf14bd
+		summarizeBy: none
+		sourceColumn: ID pedido
+
+		annotation SummarizationSetBy = Automatic
+
+	column Forma_Pagamento
+		dataType: string
+		lineageTag: e2586fdc-520d-4072-a279-44c230802969
+		summarizeBy: none
+		sourceColumn: Forma_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_installments
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f7cb371-8e21-41f5-ade4-b878d24a6de8
+		summarizeBy: none
+		sourceColumn: payment_installments
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_sequential
+		dataType: int64
+		formatString: 0
+		lineageTag: 40927fb9-5208-40ff-8be7-6c6bf387cb05
+		summarizeBy: none
+		sourceColumn: payment_sequential
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_value
+		dataType: int64
+		formatString: 0
+		lineageTag: d49cdca0-3d44-4cc6-bbe0-d8c672ada39b
+		summarizeBy: none
+		sourceColumn: payment_value
+
+		annotation SummarizationSetBy = Automatic
+
+	partition olist_pagamentos = m
+		mode: import
+		source =
+				let
+				    Fonte = Xml.Tables(File.Contents("C:\Users\DSIN1U\Downloads\Alura\arquivos\olist_pagamentos.xml")),
+				    Table0 = Fonte{0}[Table],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Table0,{{"order_id", type text}, {"payment_installments", Int64.Type}, {"payment_sequential", Int64.Type}, {"payment_value", Int64.Type}, {"payment_type", type text}}),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Tipo Alterado", "Personalizar", each if [payment_type] = "#credit_card" then "Cartão de Crédito" else if [payment_type] = "#boleto" then "Boleto" else if [payment_type] = "#voucher" then "Voucher" else if [payment_type] = "#debit_card" then "Cartão de Débito" else null, type text),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Condicional Adicionada",{{"Personalizar", "Forma_Pagamento"}}),
+				    #"Colunas Removidas1" = Table.RemoveColumns(#"Colunas Renomeadas",{"payment_type"}),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Colunas Removidas1",{{"order_id", "ID pedido"}})
+				in
+				    #"Colunas Renomeadas1"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

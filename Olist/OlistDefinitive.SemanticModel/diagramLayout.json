@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 47.619045802525115
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 18
+          },
+          "nodeIndex": "olist_itens_pedidos",
+          "nodeLineageTag": "8cd0f23b-4d43-4b76-9552-6359c5d29f55",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 266,
+            "y": 414.66666412353516
+          },
+          "nodeIndex": "olist_pedidos",
+          "nodeLineageTag": "e83c21eb-b3c8-4761-bd71-0ec265d8b691",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 839,
+            "y": 364
+          },
+          "nodeIndex": "olist_pagamentos",
+          "nodeLineageTag": "ab227fcd-a064-4a4e-9e85-d9006189ed78",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 840.14285714285711,
+            "y": 0
+          },
+          "nodeIndex": "olist_produtos",
+          "nodeLineageTag": "7a349c4f-7330-48de-a7af-9fd3e632e3a0",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 70,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

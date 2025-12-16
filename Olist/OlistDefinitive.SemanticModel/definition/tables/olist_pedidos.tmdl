@@ -1,0 +1,120 @@
+table olist_pedidos
+	lineageTag: e83c21eb-b3c8-4761-bd71-0ec265d8b691
+
+	column 'ID pedido'
+		dataType: string
+		lineageTag: b02fa2bc-fff1-4868-b1ed-64c791179d0c
+		summarizeBy: none
+		sourceColumn: ID pedido
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data compra'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 089cf157-0381-4300-a727-c713c911b1cf
+		summarizeBy: none
+		sourceColumn: Data compra
+
+		variation Variation
+			isDefault
+			relationship: 343783fd-3ace-47ae-84c6-98a0172876fe
+			defaultHierarchy: LocalDateTable_bf33c016-50e2-40b8-b049-cec24a7fae05.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data aprovação'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: adbaa36b-58e5-4ec5-a0f4-13304c8b1a4f
+		summarizeBy: none
+		sourceColumn: Data aprovação
+
+		variation Variation
+			isDefault
+			relationship: a78c7e52-9f8d-4758-8bfd-a67e794da16b
+			defaultHierarchy: LocalDateTable_5f93d96d-2b5d-4182-b035-c8b168a722c3.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data transportadora'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ee62372e-9bc9-4d42-877b-ffeef3820f61
+		summarizeBy: none
+		sourceColumn: Data transportadora
+
+		variation Variation
+			isDefault
+			relationship: af6b521b-40f4-4fc1-a0e5-f9e46eacc510
+			defaultHierarchy: LocalDateTable_1a57b9e1-e214-4540-b572-e7d0c13c419c.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data entrega'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c1a99d22-456d-4a11-a9bc-99fb5fd4973f
+		summarizeBy: none
+		sourceColumn: Data entrega
+
+		variation Variation
+			isDefault
+			relationship: 7636dcf6-baaf-4b07-a530-573ef82a6110
+			defaultHierarchy: LocalDateTable_8757d726-e529-409d-a5fc-16456e5f75cd.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data estimada entrega'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c9a948fe-96f4-4c91-b327-bdb826488ad3
+		summarizeBy: none
+		sourceColumn: Data estimada entrega
+
+		variation Variation
+			isDefault
+			relationship: 01603c5a-5235-4194-8c99-db6112a93c8f
+			defaultHierarchy: LocalDateTable_70e9afb4-d7eb-4a05-a498-34bf492c5ee4.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: df7c7786-5cea-4795-a52c-1e131437a07f
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_id
+		dataType: string
+		lineageTag: 132025f1-5260-4324-a224-2c282b7ce928
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition olist_pedidos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents(caminhoPasta & "olist_pedidos.xlsx"), null, true),
+				    olist_orders_dataset_Sheet = Fonte{[Item="olist_orders_dataset",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(olist_orders_dataset_Sheet, [PromoteAllScalars=true]),
+				    #"Linhas Superiores Removidas" = Table.Skip(#"Cabeçalhos Promovidos",1),
+				    #"Cabeçalhos Promovidos1" = Table.PromoteHeaders(#"Linhas Superiores Removidas", [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos1",{{"order_id", type text}, {"customer_id", type text}, {"order_status", type text}, {"order_purchase_timestamp", type datetime}, {"order_approved_at", type datetime}, {"order_delivered_carrier_date", type datetime}, {"order_delivered_customer_date", type datetime}, {"order_estimated_delivery_date", type datetime}}),
+				    #"Texto Extraído Após o Delimitador" = Table.TransformColumns(#"Tipo Alterado", {{"order_status", each Text.AfterDelimiter(_, "#"), type text}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Texto Extraído Após o Delimitador", each true),
+				    #"Consultas Mescladas" = Table.NestedJoin(#"Linhas Filtradas", {"order_status"}, tradução, {"Inglês"}, "tradução_status", JoinKind.LeftOuter),
+				    #"tradução_status Expandido1" = Table.ExpandTableColumn(#"Consultas Mescladas", "tradução_status", {"Português "}, {"Português "}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"tradução_status Expandido1",{{"order_id", "ID pedido"}, {"Português ", "Status"}, {"order_purchase_timestamp", "Data compra"}, {"order_approved_at", "Data aprovação"}, {"order_delivered_carrier_date", "Data transportadora"}, {"order_delivered_customer_date", "Data entrega"}, {"order_estimated_delivery_date", "Data estimada entrega"}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Colunas Renomeadas",{"order_status"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

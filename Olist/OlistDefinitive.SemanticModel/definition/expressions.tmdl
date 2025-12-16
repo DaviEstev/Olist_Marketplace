@@ -1,0 +1,22 @@
+/// Referenciação de Arquivos
+expression caminhoPasta = "C:\Users\DSIN1U\Downloads\Alura\arquivos\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 2722d9ab-0ba6-4ed0-8a74-c0ef1e4f746d
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+
+expression tradução =
+		let
+		    Fonte = Csv.Document(File.Contents("C:\Users\DSIN1U\Downloads\Alura\arquivos\tradução.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Column1", type text}, {"Column2", type text}}),
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo Alterado", [PromoteAllScalars=true]),
+		    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Inglês", type text}, {"Português ", type text}})
+		in
+		    #"Tipo Alterado1"
+	lineageTag: 8b67753f-7901-418b-b54f-444e98866976
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

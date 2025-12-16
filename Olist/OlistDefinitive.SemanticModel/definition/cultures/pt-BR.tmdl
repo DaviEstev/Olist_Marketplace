@@ -1,0 +1,6397 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "olist_itens_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist itens pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist iten pedido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "olist_itens_pedidos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.ID_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "ID pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.quantidade_iten": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "quantidade_itens"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade iten": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_itens": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.id_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "Id produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.data_limite_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "Data limite entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data limite entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record limite entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.preço": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "Preço"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido.valor_frete": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_itens_pedidos",
+			          "ConceptualProperty": "Valor frete"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor frete": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_pagamentos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento.ID_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos",
+			          "ConceptualProperty": "ID pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento.forma_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos",
+			          "ConceptualProperty": "Forma_Pagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "forma pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Forma_Pagamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Forma de Pagamento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento.payment_installment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos",
+			          "ConceptualProperty": "payment_installments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment installment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_installments": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "installment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment repayment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "repayment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento.payment_sequential": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos",
+			          "ConceptualProperty": "payment_sequential"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment sequential": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_sequential": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "imbursement sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "compensation sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "disbursement sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sum sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "expense sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "recompense sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fee sequential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pagamento.payment_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pagamentos",
+			          "ConceptualProperty": "payment_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_pedidos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.ID_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "ID pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Data compra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_pedido.data_compra.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_compra.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_compra.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_compra.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_compra.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_aprovação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Data aprovação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data aprovação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record aprovação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_pedido.data_aprovação.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data aprovação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_aprovação.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data aprovação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data aprovação ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record aprovação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_aprovação.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data aprovação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data aprovação trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record aprovação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_aprovação.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data aprovação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data aprovação mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record aprovação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_aprovação.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data aprovação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data aprovação dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record aprovação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_transportadora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Data transportadora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data transportadora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record transportadora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_pedido.data_transportadora.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data transportadora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_transportadora.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data transportadora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data transportadora ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record transportadora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_transportadora.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data transportadora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data transportadora trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record transportadora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_transportadora.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data transportadora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data transportadora mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record transportadora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_transportadora.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data transportadora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data transportadora dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record transportadora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Data entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_pedido.data_entrega.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_entrega.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_entrega.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_entrega.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_entrega.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_estimada_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Data estimada entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data estimada entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record estimada entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data estimada entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_estimada_entrega.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data estimada entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data estimada entrega ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record estimada entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_estimada_entrega.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data estimada entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data estimada entrega trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record estimada entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_estimada_entrega.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data estimada entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data estimada entrega mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record estimada entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.data_estimada_entrega.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "VariationSource": "Data estimada entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data estimada entrega dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record estimada entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "olist_pedido.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_pedidos",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "olist_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_produtos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_produto.id_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_produtos",
+			          "ConceptualProperty": "id produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_produto.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_produtos",
+			          "ConceptualProperty": "categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_produto.nome_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_produtos",
+			          "ConceptualProperty": "nome produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome produto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "olist_itens_pedido_has_quantidade_iten": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_itens_pedido.quantidade_iten": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido.quantidade_iten"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido.quantidade_iten"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_quantidade_itens"
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido_has_data_limite_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_itens_pedido.data_limite_entrega": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido.data_limite_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido.data_limite_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_data_limite_entregas"
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido_has_preço": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_itens_pedido.preço": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido.preço"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido.preço"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_preços"
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido_has_valor_frete": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_itens_pedido.valor_frete": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido.valor_frete"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido.valor_frete"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_valor_fretes"
+			        }
+			      ]
+			    },
+			    "olist_pagamento_has_ID_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pagamentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        },
+			        "olist_pagamento.ID_pedido": {
+			          "Target": {
+			            "Entity": "olist_pagamento.ID_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento.ID_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_ID_pedidos"
+			        }
+			      ]
+			    },
+			    "olist_pagamento_has_forma_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pagamentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        },
+			        "olist_pagamento.forma_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento.forma_pagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento.forma_pagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_forma_pagamentos"
+			        }
+			      ]
+			    },
+			    "olist_pagamento_has_payment_installment": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pagamentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        },
+			        "olist_pagamento.payment_installment": {
+			          "Target": {
+			            "Entity": "olist_pagamento.payment_installment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento.payment_installment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_payment_installments"
+			        }
+			      ]
+			    },
+			    "olist_pagamento_has_payment_sequential": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pagamentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        },
+			        "olist_pagamento.payment_sequential": {
+			          "Target": {
+			            "Entity": "olist_pagamento.payment_sequential"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento.payment_sequential"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_payment_sequential"
+			        }
+			      ]
+			    },
+			    "olist_pagamento_has_payment_value": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pagamentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        },
+			        "olist_pagamento.payment_value": {
+			          "Target": {
+			            "Entity": "olist_pagamento.payment_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento.payment_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_payment_values"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_data_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.data_compra": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_data_compras"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_data_aprovação": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.data_aprovação": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_data_aprovaçãos"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_data_transportadora": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.data_transportadora": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_data_transportadoras"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_data_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.data_entrega": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_data_entregas"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_data_estimada_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_data_estimada_entregas"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pedido.status": {
+			          "Target": {
+			            "Entity": "olist_pedido.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_statuses"
+			        }
+			      ]
+			    },
+			    "olist_produto_has_id_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_produto": {
+			          "Target": {
+			            "Entity": "olist_produto"
+			          }
+			        },
+			        "olist_produto.id_produto": {
+			          "Target": {
+			            "Entity": "olist_produto.id_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_produto"
+			            },
+			            "Object": {
+			              "Role": "olist_produto.id_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_produtos_have_id_produtos"
+			        }
+			      ]
+			    },
+			    "olist_produto_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_produto": {
+			          "Target": {
+			            "Entity": "olist_produto"
+			          }
+			        },
+			        "olist_produto.categoria": {
+			          "Target": {
+			            "Entity": "olist_produto.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_produto"
+			            },
+			            "Object": {
+			              "Role": "olist_produto.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_produtos_have_categorias"
+			        }
+			      ]
+			    },
+			    "olist_produto_has_nome_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_produto": {
+			          "Target": {
+			            "Entity": "olist_produto"
+			          }
+			        },
+			        "olist_produto.nome_produto": {
+			          "Target": {
+			            "Entity": "olist_produto.nome_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_produto"
+			            },
+			            "Object": {
+			              "Role": "olist_produto.nome_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_produtos_have_nome_produtos"
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido_has_olist_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_olist_pedidos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_olist_itens_pedidos"
+			        }
+			      ]
+			    },
+			    "olist_itens_pedido_has_olist_produto": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_itens_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_itens_pedido": {
+			          "Target": {
+			            "Entity": "olist_itens_pedido"
+			          }
+			        },
+			        "olist_produto": {
+			          "Target": {
+			            "Entity": "olist_produto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_itens_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_produto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_itens_pedidos_have_olist_produtos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_produto"
+			            },
+			            "Object": {
+			              "Role": "olist_itens_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_produtos_have_olist_itens_pedidos"
+			        }
+			      ]
+			    },
+			    "olist_pedido_has_olist_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido": {
+			          "Target": {
+			            "Entity": "olist_pedido"
+			          }
+			        },
+			        "olist_pagamento": {
+			          "Target": {
+			            "Entity": "olist_pagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido"
+			            },
+			            "Object": {
+			              "Role": "olist_pagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pedidos_have_olist_pagamentos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pagamento"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_pagamentos_have_olist_pedidos"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra"
+			          }
+			        },
+			        "olist_pedido.data_compra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_compras_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_hierarquia_de_data_has_olist_pedido_data_compra_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_compra.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_hierarquia_de_data_has_olist_pedido_data_compra_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_compra.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_hierarquia_de_data_has_olist_pedido_data_compra_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_compra.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_hierarquia_de_data_has_olist_pedido_data_compra_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_compra.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_ano_has_olist_pedido_data_compra_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.ano"
+			          }
+			        },
+			        "olist_pedido.data_compra.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.ano"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_trimestre_has_olist_pedido_data_compra_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.trimestre"
+			          }
+			        },
+			        "olist_pedido.data_compra.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_compra_mê_has_olist_pedido_data_compra_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_compra.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.mê"
+			          }
+			        },
+			        "olist_pedido.data_compra.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_compra.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.dia"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_compra.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_compra.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_aprovaçãos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_hierarquia_de_data_has_olist_pedido_data_aprovação_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_hierarquia_de_data_has_olist_pedido_data_aprovação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_hierarquia_de_data_has_olist_pedido_data_aprovação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_hierarquia_de_data_has_olist_pedido_data_aprovação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_ano_has_olist_pedido_data_aprovação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.ano"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.ano"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_trimestre_has_olist_pedido_data_aprovação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.trimestre"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_aprovação_mê_has_olist_pedido_data_aprovação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_aprovação.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.mê"
+			          }
+			        },
+			        "olist_pedido.data_aprovação.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_aprovação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.dia"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_aprovação.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_aprovação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_transportadoras_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_hierarquia_de_data_has_olist_pedido_data_transportadora_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_hierarquia_de_data_has_olist_pedido_data_transportadora_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_hierarquia_de_data_has_olist_pedido_data_transportadora_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_hierarquia_de_data_has_olist_pedido_data_transportadora_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_ano_has_olist_pedido_data_transportadora_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.ano"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.ano"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_trimestre_has_olist_pedido_data_transportadora_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.trimestre"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_transportadora_mê_has_olist_pedido_data_transportadora_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_transportadora.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.mê"
+			          }
+			        },
+			        "olist_pedido.data_transportadora.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_transportadora.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.dia"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_transportadora.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_transportadora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega"
+			          }
+			        },
+			        "olist_pedido.data_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_entregas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_hierarquia_de_data_has_olist_pedido_data_entrega_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_entrega.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_hierarquia_de_data_has_olist_pedido_data_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_hierarquia_de_data_has_olist_pedido_data_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_hierarquia_de_data_has_olist_pedido_data_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_entrega.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_ano_has_olist_pedido_data_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.ano"
+			          }
+			        },
+			        "olist_pedido.data_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.ano"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_trimestre_has_olist_pedido_data_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.trimestre"
+			          }
+			        },
+			        "olist_pedido.data_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_entrega_mê_has_olist_pedido_data_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.mê"
+			          }
+			        },
+			        "olist_pedido.data_entrega.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.dia"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_entrega.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_estimada_entregas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_hierarquia_de_data_has_olist_pedido_data_estimada_entrega_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_hierarquia_de_data_has_olist_pedido_data_estimada_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_hierarquia_de_data_has_olist_pedido_data_estimada_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_hierarquia_de_data_has_olist_pedido_data_estimada_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_ano_has_olist_pedido_data_estimada_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.ano": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.ano"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.ano"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_trimestre_has_olist_pedido_data_estimada_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.trimestre"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres4"
+			        }
+			      ]
+			    },
+			    "olist_pedido_data_estimada_entrega_mê_has_olist_pedido_data_estimada_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_pedidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_pedido.data_estimada_entrega.mê": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.mê"
+			          }
+			        },
+			        "olist_pedido.data_estimada_entrega.dia": {
+			          "Target": {
+			            "Entity": "olist_pedido.data_estimada_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.dia"
+			            },
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_pedido.data_estimada_entrega.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_pedido.data_estimada_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê4"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

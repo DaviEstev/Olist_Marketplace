@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/2.2.0/schema.json",
+  "position": {
+    "x": 0,
+    "y": 796,
+    "z": 4000,
+    "height": 266,
+    "width": 324,
+    "tabOrder": 4000
+  },
+  "objects": {
+    "categoryAxis": [
+      {
+        "properties": {
+          "maxMarginFactor": {
+            "expr": {
+              "Literal": {
+                "Value": "20L"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "valueAxis": [],
+    "zoom": [],
+    "dataPoint": [],
+    "labels": []
+  },
+  "visualContainerObjects": {
+    "title": [],
+    "subTitle": [],
+    "divider": [],
+    "spacing": [],
+    "background": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#8E6A48'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "84D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "border": [],
+    "dropShadow": [],
+    "visualHeader": [],
+    "visualTooltip": []
+  }
+}

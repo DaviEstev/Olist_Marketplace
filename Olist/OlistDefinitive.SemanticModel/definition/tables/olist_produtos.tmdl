@@ -1,0 +1,48 @@
+table olist_produtos
+	lineageTag: 7a349c4f-7330-48de-a7af-9fd3e632e3a0
+
+	column 'id produto'
+		dataType: string
+		lineageTag: 37ba5b9b-9230-44a4-a3bc-ce702e2b548c
+		summarizeBy: none
+		sourceColumn: id produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria
+		dataType: string
+		lineageTag: d646ec51-c273-474e-9003-7ff5b43a0df9
+		summarizeBy: none
+		sourceColumn: categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'nome produto'
+		dataType: string
+		lineageTag: 12e1c68c-5af3-4ddb-b91f-88b963dd5985
+		summarizeBy: none
+		sourceColumn: nome produto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition olist_produtos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\DSIN1U\Downloads\Alura\arquivos\olist_produtos.xlsx"), null, true),
+				    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"product_id", type text}, {"product_category_name", type text}, {"product_name_lenght", Int64.Type}, {"product_description_lenght", Int64.Type}, {"product_photos_qty", Int64.Type}, {"product_weight_g", Int64.Type}, {"product_length_cm", Int64.Type}, {"product_height_cm", Int64.Type}, {"product_width_cm", Int64.Type}, {"product_name", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"product_name_lenght", "product_description_lenght", "product_photos_qty", "product_weight_g", "product_length_cm", "product_height_cm", "product_width_cm"}),
+				    #"Colocar Cada Palavra Em Maiúscula" = Table.TransformColumns(#"Colunas Removidas",{{"product_category_name", Text.Proper, type text}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Colocar Cada Palavra Em Maiúscula","_"," ",Replacer.ReplaceText,{"product_category_name"}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Valor Substituído",{{"product_category_name", "categoria"}, {"product_name", "nome produto"}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Colunas Renomeadas", each [categoria] <> null and [categoria] <> ""),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Linhas Filtradas",{{"product_id", "id produto"}})
+				in
+				    #"Colunas Renomeadas1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,188 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/2.2.0/schema.json",
+  "position": {
+    "x": 0,
+    "y": 175,
+    "z": 3000,
+    "height": 326,
+    "width": 324,
+    "tabOrder": 3000
+  },
+  "objects": {
+    "legend": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "position": {
+            "expr": {
+              "Literal": {
+                "Value": "'LeftCenter'"
+              }
+            }
+          },
+          "showTitle": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "8D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "dataPoint": [
+      {
+        "properties": {
+          "borderShow": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "slices": [
+      {
+        "properties": {
+          "innerRadiusRatio": {
+            "expr": {
+              "Literal": {
+                "Value": "40L"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "labels": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "position": {
+            "expr": {
+              "Literal": {
+                "Value": "'inside'"
+              }
+            }
+          },
+          "overflow": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "labelStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "'Data'"
+              }
+            }
+          },
+          "background": {
+            "expr": {
+              "Literal": {
+                "Value": "'auto'"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "dataViewWildcard": {
+                "matchingOption": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "visualContainerObjects": {
+    "background": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "84D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "border": [],
+    "dropShadow": [],
+    "title": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Preferência de Pagamento'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "subTitle": [],
+    "divider": [],
+    "spacing": [],
+    "visualHeader": [],
+    "visualTooltip": []
+  }
+}

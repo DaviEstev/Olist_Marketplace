@@ -1,0 +1,37 @@
+relationship 343783fd-3ace-47ae-84c6-98a0172876fe
+	joinOnDateBehavior: datePartOnly
+	fromColumn: olist_pedidos.'Data compra'
+	toColumn: LocalDateTable_bf33c016-50e2-40b8-b049-cec24a7fae05.Date
+
+relationship a78c7e52-9f8d-4758-8bfd-a67e794da16b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: olist_pedidos.'Data aprovação'
+	toColumn: LocalDateTable_5f93d96d-2b5d-4182-b035-c8b168a722c3.Date
+
+relationship af6b521b-40f4-4fc1-a0e5-f9e46eacc510
+	joinOnDateBehavior: datePartOnly
+	fromColumn: olist_pedidos.'Data transportadora'
+	toColumn: LocalDateTable_1a57b9e1-e214-4540-b572-e7d0c13c419c.Date
+
+relationship 7636dcf6-baaf-4b07-a530-573ef82a6110
+	joinOnDateBehavior: datePartOnly
+	fromColumn: olist_pedidos.'Data entrega'
+	toColumn: LocalDateTable_8757d726-e529-409d-a5fc-16456e5f75cd.Date
+
+relationship 01603c5a-5235-4194-8c99-db6112a93c8f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: olist_pedidos.'Data estimada entrega'
+	toColumn: LocalDateTable_70e9afb4-d7eb-4a05-a498-34bf492c5ee4.Date
+
+relationship AutoDetected_fa96d1be-18ea-45c4-a318-02fe2daa8abf
+	fromColumn: olist_itens_pedidos.'ID pedido'
+	toColumn: olist_pedidos.'ID pedido'
+
+relationship f9e05628-69f3-f7a4-d13d-53171d9f8765
+	fromColumn: olist_itens_pedidos.'Id produto'
+	toColumn: olist_produtos.'id produto'
+
+relationship 303cc24b-7eec-f1f7-e4f9-f6019e98b637
+	fromColumn: olist_pedidos.'ID pedido'
+	toColumn: olist_pagamentos.'ID pedido'
+

@@ -1,0 +1,27 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["olist_itens_pedidos","olist_pagamentos","olist_pedidos","tradução","caminhoPasta","olist_produtos"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table olist_itens_pedidos
+ref table olist_pagamentos
+ref table olist_pedidos
+ref table DateTableTemplate_25836387-5832-426f-97b7-c8790407b5fe
+ref table LocalDateTable_bf33c016-50e2-40b8-b049-cec24a7fae05
+ref table LocalDateTable_5f93d96d-2b5d-4182-b035-c8b168a722c3
+ref table LocalDateTable_1a57b9e1-e214-4540-b572-e7d0c13c419c
+ref table LocalDateTable_8757d726-e529-409d-a5fc-16456e5f75cd
+ref table LocalDateTable_70e9afb4-d7eb-4a05-a498-34bf492c5ee4
+ref table olist_produtos
+
+ref cultureInfo pt-BR
+

@@ -1,0 +1,70 @@
+table olist_itens_pedidos
+	lineageTag: 8cd0f23b-4d43-4b76-9552-6359c5d29f55
+
+	column 'ID pedido'
+		dataType: string
+		lineageTag: 93dc51f2-60fd-4e86-b442-addcd7417e68
+		summarizeBy: none
+		sourceColumn: ID pedido
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_itens
+		dataType: string
+		lineageTag: 8581243c-b0a3-47be-bc96-5be3fb26ed61
+		summarizeBy: none
+		sourceColumn: quantidade_itens
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id produto'
+		dataType: string
+		lineageTag: e3544235-b95b-4bb2-95a1-298c5523b250
+		summarizeBy: none
+		sourceColumn: Id produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data limite entrega'
+		dataType: string
+		lineageTag: 7528274d-55db-4654-879f-cff10f6b4377
+		summarizeBy: none
+		sourceColumn: Data limite entrega
+
+		annotation SummarizationSetBy = Automatic
+
+	column Preço
+		dataType: decimal
+		formatString: 0
+		lineageTag: d8bdc316-0cb0-4ddb-92eb-8163fe0e6b02
+		summarizeBy: sum
+		sourceColumn: Preço
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valor frete'
+		dataType: decimal
+		formatString: 0
+		lineageTag: a6fa1dd7-cbd5-4766-a525-cdb4d4d1cf5f
+		summarizeBy: sum
+		sourceColumn: Valor frete
+
+		annotation SummarizationSetBy = Automatic
+
+	partition olist_itens_pedidos = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(caminhoPasta & "olist_itens_pedidos.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado com Localidade" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos", {{"price", type number}, {"freight_value", type number}}, "en-US"),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado com Localidade",{"seller_id"}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Colunas Removidas",{{"order_id", "ID pedido"}, {"order_item_id", "quantidade_itens"}, {"product_id", "Id produto"}, {"shipping_limit_date", "Data limite entrega"}, {"price", "Preço"}, {"freight_value", "Valor frete"}}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Renomeadas",{{"Preço", Currency.Type}, {"Valor frete", Currency.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+
